@@ -7,6 +7,7 @@ Tento projekt testuje dosku ES32D26:
 
 ## Obsah
 - [Popis](#popis)
+- [Quick start](#quick-start)
 - [Pouzitie](#pouzitie)
 - [Mapy pinov](#mapy-pinov)
 - [Sekvencia rele](#sekvencia-rele)
@@ -15,9 +16,12 @@ Tento projekt testuje dosku ES32D26:
 Firmware je postaveny na ESP-IDF (PlatformIO). Vypisuje stav vstupov a postupne
 spina rele, aby bolo mozne overit funkcnost celeho PLC.
 
-## Pouzitie
+## Quick start
 1. Build: `platformio run -e esp32dev`
 2. Upload + monitor: `platformio run -e esp32dev -t upload -t monitor`
+
+## Pouzitie
+Pozri Quick start vyssie.
 
 ## Mapy pinov
 - 74HC595 (rele): DATA=GPIO12, CLOCK=GPIO22, LATCH=GPIO23, OE=GPIO13
