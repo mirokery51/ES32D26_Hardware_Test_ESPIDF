@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../TEST_eletechsup"
+		},
+		{
+			"name": "ES32D26_Hardware_Test",
+			"path": "../ES32D26_Hardware_Test"
+		},
+		{
+			"name": "ES32D26_Hardware_Test_ESPIDF",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
